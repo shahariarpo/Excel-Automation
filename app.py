@@ -6,8 +6,6 @@ def process_workbook(filename):
     wb = xl.load_workbook(filename)
     sheet = wb["Sheet1"]
 
-    print("Hello My Niga")
-
     for row in range(2, sheet.max_row + 1):
         cell = sheet.cell(row, 3)
         corrected_price = cell.value * 0.9
