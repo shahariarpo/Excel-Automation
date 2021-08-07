@@ -1,2 +1,2 @@
 # Excel Automation
- A simple program to automate your work in Excel
+ A simple python program to automate your work in Excel
